@@ -1,0 +1,36 @@
+RewriteEngine On
+RewriteRule ^shop/$ /shop/shop.php
+RewriteRule ^es/tienda/$ /es/tienda/shop.php
+RewriteRule ^shop/([0-9]+)/$ /shop/shop-item.php?id=$1
+RewriteRule ^es/tienda/([0-9]+)/$ /es/tienda/shop-item.php?id=$1
+
+RewriteRule ^collections/$ /collections/collections.php
+RewriteRule ^es/colecciones/$ /es/colecciones/collections.php
+RewriteRule ^collections/(.*)/$ /collections/collection.php?id=$1
+RewriteRule ^es/colecciones/(.*)/$ /es/colecciones/collection.php?id=$1
+
+RewriteRule ^collections.php$ /collections/ [R=301]
+RewriteRule ^shop.php$ /shop/ [R=301]
+RewriteRule ^404.php$ /404/ [R=301]
+RewriteRule ^es/404/index.php$ /es/404/ [R=301]
+RewriteRule ^(shop/[0-9]+)$ /$1/ [R=301]
+
+RewriteCond %{QUERY_STRING} ^id=([0-9]+)$
+RewriteRule ^/shop-item.php$ /shop/%1/? [R=301]
+
+ErrorDocument 404 /404.php
+
+# RewriteCond %{HTTP_HOST} !^mermanegra.com$ [NC]
+# RewriteCond %{HTTP_HOST} !^mail.mermanegra.com$ [NC]
+# RewriteCond %{HTTP_HOST} !^drive.mermanegra.com$ [NC]
+# RewriteRule ^(.*)$ http://mermanegra.com/$1 [L,R=301]
+
+# 3 WEEKS
+<FilesMatch "\.(svg|ico|jpg|gif|png)$">
+Header set Cache-Control "max-age=1814400, public"
+</FilesMatch>
+
+# 1 WEEK
+<FilesMatch "\.(css|js)$">
+Header set Cache-Control "max-age=604800, proxy-revalidate"
+</FilesMatch>
