@@ -43,8 +43,8 @@
 	     <div class="g--half g--last">
 	     	<img class="logo180-1"src="<?php echo BASE_URL?>images/180shop.svg" alt="180 Shop">
 			<p>
-			Mon-Sat, 11:00 / 20:00<br>
-			Sun, 11:00 / 18:00<br>
+			Mon-Sat, 10:00 / 20:00<br>
+			Sun, 10:00 / 18:00<br>
 			</p>
 			<p>
 				Tel: 55255626 <br>
