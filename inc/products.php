@@ -43,10 +43,10 @@ $collections[4] = array(
 );
 
 $collections[5] = array(
-	'name' => 'Nueva Coleccción',
+	'name' => 'Nueva_Coleccción',
 	'subname' => 'Nueva',
 	'subname_es' => 'New',
-	'name_es' => 'New Collection',
+	'name_es' => 'New_Collection',
 	'description' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
 	'description_es' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
 	'img' => 'images/shop/Habito/401/401-1.jpg',
@@ -673,6 +673,48 @@ $products[413] = array(
 	'color2' => true,
 	'color3' => true,
 	'collection' => $collections[4]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[414] = array(
+	'name' => 'Campera',
+	'name_es' => 'Campera',
+	'description' => 'Loneta de algodón 100% <br> Chamarra de lona unisex con cuatro bolsillos delanteros y uno en la espalda. Calce amplio y cuadrado.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Chamarra de lona unisex con cuatro bolsillos delanteros y uno en la espalda. Calce amplio y cuadrado. ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' =>true,
+	'sizeL' => true,
+	'color1' => true,
+	'color2' => true,
+	'color3' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[415] = array(
+	'name' => 'Camisa de trabajo',
+	'name_es' => 'Camisa de trabajo',
+	'description' => 'Gabardina de algodón 100%<br>Camisa de gabardina unisex de cuatro bolsillos delanteros y 1 en la espalda. Calce amplio y cuadrado.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Chamarra de lona unisex con cuatro bolsillos delanteros y uno en la espalda. Calce amplio y cuadrado. ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color2' => true,
+	'color3' => true,
+	'collection' => $collections[5]['name'],
 	'instock' => true,
 	'paypal' => "VUYPDMPJNDAEL"
 );
