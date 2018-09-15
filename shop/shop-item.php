@@ -82,9 +82,9 @@ $( document ).ready(function() {
         <?php if (isset($product["sizeL"]) && $product["sizeL"] == true): ?> <button class="sizebutton sizethree" onclick="selectItem('sizeid', 3);changeSize();">3</button> <?php endif;?>
 
         <p class="selectiontitle">Color</p>
-          <?php if ($product["color1"] == true): ?> <button class="colorbutton colorblack" onclick="selectItem('colorid', 'Black');">Black</button> <?php endif;?>
-          <?php if ($product["color2"] == true): ?> <button class="colorbutton colorbeige" onclick="selectItem('colorid', 'Beige');">Beige</button> <?php endif;?>
-          <?php if ($product["color3"] == true): ?> <button class="colorbutton colorgrey" onclick="selectItem('colorid', 'Grey');">Grey</button> <?php endif;?>
+          <?php if (isset($product["color1"]) && $product["color1"] == true): ?> <button class="colorbutton colorblack" onclick="selectItem('colorid', 'Black');">Black</button> <?php endif;?>
+          <?php if (isset($product["color2"]) && $product["color2"] == true): ?> <button class="colorbutton colorbeige" onclick="selectItem('colorid', 'Beige');">Beige</button> <?php endif;?>
+          <?php if (isset($product["color3"]) && $product["color3"] == true): ?> <button class="colorbutton colorgrey" onclick="selectItem('colorid', 'Grey');">Grey</button> <?php endif;?>
           <?php if (isset($product["color4"]) && $product["color4"] == true): ?> <button class="colorbutton colormarbledgrey" onclick="selectItem('colorid', 'Marbled Grey');">Marbled Grey</button> <?php endif;?>
           <?php if (isset($product["color5"]) && $product["color5"] == true): ?> <button class="colorbutton colorwhite" onclick="selectItem('colorid', 'White');">White</button> <?php endif;?>
           <?php if (isset($product["color6"]) && $product["color6"] == true): ?> <button class="colorbutton colorgreen" onclick="selectItem('colorid', 'Army Green');">Army Green</button> <?php endif;?>

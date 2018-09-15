@@ -677,6 +677,7 @@ $products[413] = array(
 	'paypal' => "VUYPDMPJNDAEL"
 );
 
+// new collection - By EndelSoft 2018
 $products[414] = array(
 	'name' => 'Campera',
 	'name_es' => 'Campera',
@@ -719,6 +720,297 @@ $products[415] = array(
 	'paypal' => "VUYPDMPJNDAEL"
 );
 
+$products[416] = array(
+	'name' => 'Sudadera mayor',
+	'name_es' => 'Sudadera mayor',
+	'description' => 'Algodón 100%. Puños Polyester 100%.<br>Sudadera oversize unisex, con detalles estampados en serigrafia.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 100%. Puños Polyester 100%.<br>Sudadera oversize unisex, con detalles estampados en serigrafia.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color2' => true,
+	'color5' => true,
+	'color6' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[417] = array(
+	'name' => 'Sudadera menor',
+	'name_es' => 'Sudadera menor',
+	'description' => 'Algodón 95%. Elastano 5%.<br>Sudadera unisex con detalles bordados. De calce al cuerpo.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 95%. Elastano 5%.<br>Sudadera unisex con detalles bordados. De calce al cuerpo.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color4' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[418] = array(
+	'name' => 'Sudadera con resorte',
+	'name_es' => 'Sudadera con resorte',
+	'description' => 'Algodón 90% Licra 10%.<br>Sudadera de mujer corta con resorte en la cintura y puños.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 90% Licra 10%.<br>Sudadera de mujer corta con resorte en la cintura y puños.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color10' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[419] = array(
+	'name' => 'Polera con resorte',
+	'name_es' => 'Polera con resorte',
+	'description' => 'Algodón 90% Licra 10%.<br>Polera de mujer corta con resorte a la cintura y puños.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 90% Licra 10%.<br>Polera de mujer corta con resorte a la cintura y puños.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color3' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[420] = array(
+	'name' => 'Polo',
+	'name_es' => 'Polo',
+	'description' => 'Algodón 100%.<br>Polo oversize de pique con cuello y puños combiandos. Unisex.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 100%.<br>Polo oversize de pique con cuello y puños combiandos. Unisex.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => false,
+	'color1' => true,
+	'color3' => true,
+	'color10' => true,
+	'color11' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[421] = array(
+	'name' => 'Vestido Polo',
+	'name_es' => 'Vestido Polo',
+	'description' => 'Algodón 100%.<br>Vestido Polo oversize de pique con cuello y puños combinados. Unisex.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 100%.<br>Vestido Polo oversize de pique con cuello y puños combinados. Unisex.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => false,
+	'color1' => true,
+	'color6' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[422] = array(
+	'name' => 'Sudadera manga corta',
+	'name_es' => 'Sudadera manga corta',
+	'description' => 'Algodón 90% Licra 10%.<br>Sudadera manga corta unisex. Con detalles bordados. Corte cuadrado.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 90% Licra 10%.<br>Sudadera manga corta unisex. Con detalles bordados. Corte cuadrado.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color8' => true,
+	'color10' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[423] = array(
+	'name' => 'Camiseta Oversize',
+	'name_es' => 'Camiseta Oversize',
+	'description' => 'Algodón 100%.<br>Camiseta  unisex de manga corta oversize. Con detalles bordados. Corte super amplio.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 100%.<br>Camiseta  unisex de manga corta oversize. Con detalles bordados. Corte super amplio.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color6' => true,
+	'color9' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[424] = array(
+	'name' => 'Camiseta Basica hombre',
+	'name_es' => 'Camiseta Basica hombre',
+	'description' => 'Algodón 100%.<br>Camiseta manga corta de corte amplio con detalles bordados.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 100%.<br>Camiseta manga corta de corte amplio con detalles bordados.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color2' => true,
+	'color3' => true,
+	'color8' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[425] = array(
+	'name' => 'Polera',
+	'name_es' => 'Polera',
+	'description' => 'Algodón 100%.<br>Polera unisex amplia con detalles bordados.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 100%.<br>Polera unisex amplia con detalles bordados.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color10' => true,
+	'color3' => true,
+	'color8' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[426] = array(
+	'name' => 'Camiseta básica de mujer',
+	'name_es' => 'Camiseta básica de mujer',
+	'description' => 'Algodón 100%.<br>Camiseta de mujer corta a la cintura. De corte amplio<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 100%.<br>Camiseta de mujer corta a la cintura. De corte amplio<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => false,
+	'color1' => true,
+	'color6' => true,
+	'color3' => true,
+	'color8' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[427] = array(
+	'name' => 'Vestido al centro',
+	'name_es' => 'Vestido al centro',
+	'description' => 'Algodón 100%.<br>Vestido midi con amplitud al centro.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Algodón 100%.<br>Vestido midi con amplitud al centro.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => false,
+	'color1' => true,
+	'color3' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[428] = array(
+	'name' => 'Pantalón con resorte',
+	'name_es' => 'Pantalón con resorte',
+	'description' => 'Gabardina de algodón 100%.<br>Pantalón con corte recto y resorte en la cintura y puños.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Gabardina de algodón 100%.<br>Pantalón con corte recto y resorte en la cintura y puños.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color11' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
+
+$products[429] = array(
+	'name' => 'Pantalón recto',
+	'name_es' => 'Pantalón recto',
+	'description' => 'Gabardina de algodón 100%.<br>Pantalon recto por arriba de los tobillos, con resorte en la cintura y detalle de bolsillo en el trasero.<br><br>THIS GARMENT IS MANUFACTURED BY REQUEST ONLY.  If you wish to place a customized order please write to the next address: <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'description_es' => 'Gabardina de algodón 100%.<br>Pantalon recto por arriba de los tobillos, con resorte en la cintura y detalle de bolsillo en el trasero.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
+	'price' => 3500,
+	'img' =>  'images/shop/new/414/414-1.jpg',
+	'img2' => 'images/shop/new/414/414-1.jpg',
+	'img3' => 'images/shop/new/414/414-1.jpg',
+	'img4' => 'images/shop/new/414/414-1.jpg',
+	'sizeS' => true,
+	'sizeM' => true,
+	'sizeL' => true,
+	'color1' => true,
+	'color6' => true,
+	'collection' => $collections[5]['name'],
+	'instock' => true,
+	'paypal' => "VUYPDMPJNDAEL"
+);
 
 foreach ($products as $product_id => $product){
 	$products[$product_id]["sku"] = $product_id;
