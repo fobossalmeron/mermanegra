@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Merma Negra | <?php if ($pagetitle == 'Merma Negra') { echo 'Clothing line boasting the designs of Gustavo Castellanos & Jessica Escobar';} else { echo $pagetitle; }; ?>">
-    <meta name="author" content="Merma Negra">
+    <meta name="author" content="Mermanegra">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
     <title><?php echo $pagetitle?></title>
     <meta property="og:url"                content="http://mermanegra.com/">
 	<meta property="og:type"               content="website">
-	<meta property="og:title"              content="Merma Negra">
-	<meta property="og:description"        content="Merma Negra | Clothing line boasting the designs of Gustavo Castellanos &amp; Jessica Escobar">
+	<meta property="og:title"              content="Mermanegra">
+	<meta property="og:description"        content="Mermanegra | Clothing line boasting the designs of Gustavo Castellanos &amp; Jessica Escobar">
 	<meta property="og:image"              content="http://mermanegra.com/images/og_image.png"/>
 
 	<!-- favicon info -->

@@ -93,6 +93,7 @@ $( document ).ready(function() {
           <?php if (isset($product["color9"]) && $product["color9"] == true): ?> <button class="colorbutton coloroxfordgrey" onclick="selectItem('colorid', 'Oxford Grey');">Oxford Grey</button> <?php endif;?>
           <?php if (isset($product["color10"]) && $product["color10"] == true): ?> <button class="colorbutton colorpearlgrey" onclick="selectItem('colorid', 'Pearl Grey');">Pearl Grey</button> <?php endif;?>
           <?php if (isset($product["color11"]) && $product["color11"] == true): ?> <button class="colorbutton colorbrown" onclick="selectItem('colorid', 'Brown');">Brown</button> <?php endif;?>
+          <?php if (isset($product["color12"]) && $product["color12"] == true): ?> <button class="colorbutton colorlila" onclick="selectItem('colorid', 'Lila');">Lila</button> <?php endif;?>
 
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
@@ -119,6 +120,7 @@ $( document ).ready(function() {
               <?php if ($product["color9"] == true): ?> <option value="Oxford Grey">Oxford Grey</option> <?php endif;?>
               <?php if ($product["color10"] == true): ?> <option value="Pearl Grey">Pearl Grey</option> <?php endif;?>
               <?php if ($product["color11"] == true): ?> <option value="Brown">Brown</option> <?php endif;?>
+              <?php if ($product["color12"] == true): ?> <option value="Lila">Lila</option> <?php endif;?>
             </select>
 
 						<input type="hidden" name="item_name" value="<?php echo $product["name"];?>">
