@@ -333,8 +333,8 @@ position: relative;
 
 .logoimgmov{
 display: block;
-width: 140px;
-margin-left: 10px;
+width: 120px;
+margin: 10px 8px;
 position: relative;
 }
 
@@ -399,7 +399,8 @@ body.open {
 }
 
 .homebar{
-  background-color: transparent!important;
+  /* background-color: transparent!important; */
+  background-color: rgba(255,255,255,0.3) !important;
 }
 
 .app-bar-container {
@@ -588,7 +589,7 @@ button.menu img {
 
 .lang{
   display: block;
-  background-color: #282828;
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 16px;
   position: absolute;
   left: 50%;
@@ -670,7 +671,7 @@ color:#999;
 .navdrawer-container ul li a {
   display: block;
   text-decoration: none;
-  color:#999;
+  color:#282828;
   -webkit-transition: background-color 0.2s ease-out;
           transition: background-color 0.2s ease-out;
   white-space: nowrap;

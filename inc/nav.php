@@ -1,6 +1,6 @@
 <body>
-   <div class="headerwrapper <?php if ($pagetitle == 'Merma Negra') {echo "homebar";} ?>">
-    <header class="app-bar <?php if ($pagetitle == 'Merma Negra') {echo "homebar";} ?>">
+   <div class="headerwrapper <?php if ($pagetitle == 'Mermanegra') {echo "homebar";} ?>">
+    <header class="app-bar <?php if ($pagetitle == 'Mermanegra') {echo "homebar";} ?>">
 
       <div class="app-bar-container">
          <?php include(ROOT_PATH . 'inc/menuicon2.php'); ?>
@@ -16,7 +16,7 @@
 
     <nav class="navdrawer-container">
       <a href="<?php echo BASE_URL;?>">
-      <img class="logoimgmov" src="<?php echo BASE_URL;?>images/logo.svg">
+      <img class="logoimgmov" src="<?php echo BASE_URL;?>images/isotipo.png">
       </a>
       <ul>
       	<li><a class="<?php if ($pagetitle == 'About') {echo "active";} ?>" href="<?php echo BASE_URL;?>about/">About</a></li>

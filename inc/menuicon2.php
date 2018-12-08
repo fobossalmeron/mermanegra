@@ -1,4 +1,4 @@
-<div class="hamb <?php if ($pagetitle == 'Merma Negra') {echo "welcome";} ?>">
+<div class="hamb <?php if ($pagetitle == 'Mermanegra') {echo "welcome";} ?>">
 <svg class="hambsvg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px"
      height="50px" viewBox="0 0 60 50" enable-background="new 0 0 60 50" xml:space="preserve">
 

@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$mail->setFrom($email, $name);
 		$mail->addReplyTo($email, $name);
 		$mail->addAddress('contact@mermanegra.com', 'Gustavo Castellanos');
-		$mail->Subject = 'Merma Negra Contact Form Submission |' . $name;
+		$mail->Subject = 'Mermanegra Contact Form Submission |' . $name;
 		$mail->msgHTML($email_body);
 
 		if ($mail->send()) {

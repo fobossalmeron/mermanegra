@@ -1,5 +1,5 @@
 <?php
-	$pagetitle = 'Merma Negra';
+	$pagetitle = 'Mermanegra';
 	require_once("inc/config.php"); 
 ?> 
 
@@ -10,7 +10,7 @@
     <main class="home">
         <div class="lang">
             <a href="<?php echo BASE_URL;?>">
-                 <img src="<?php echo BASE_URL?>images/logowhite.svg">
+                 <img src="<?php echo BASE_URL?>images/isotipo.png">
             </a>
             <p><a href="<?php echo BASE_URL?>es/">Español</a> | <b>English</b></p>
         </div>

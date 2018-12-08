@@ -1,11 +1,11 @@
 <body>
-   <div class="headerwrapper <?php if ($pagetitle == 'Merma Negra') {echo "homebar";} ?>">
-    <header class="app-bar <?php if ($pagetitle == 'Merma Negra') {echo "homebar";} ?>"> 
+   <div class="headerwrapper <?php if ($pagetitle == 'Mermanegra') {echo "homebar";} ?>">
+    <header class="app-bar <?php if ($pagetitle == 'Mermanegra') {echo "homebar";} ?>"> 
 
       <div class="app-bar-container">
          <?php include(ROOT_PATH . 'inc/menuicon2.php'); ?>
-         <h1 class="logo">Merma Negra</h1>
-         <?php if ($pagetitle == 'Merma Negra'): ?>
+         <h1 class="logo">Mermanegra</h1>
+         <?php if ($pagetitle == 'Mermanegra'): ?>
           <div class="langmob">
             <b>Es</b> | <a href="<?php echo BASE_URL?>">En</a>
           </div>
