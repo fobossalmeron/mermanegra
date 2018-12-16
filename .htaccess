@@ -1,22 +1,22 @@
 RewriteEngine On
-RewriteRule ^shop/$ /mermanegra/shop/shop.php
-RewriteRule ^es/tienda/$ /mermanegra/es/tienda/shop.php
-RewriteRule ^shop/([0-9]+)/$ /mermanegra/shop/shop-item.php?id=$1
-RewriteRule ^es/tienda/([0-9]+)/$ /mermanegra/es/tienda/shop-item.php?id=$1
+RewriteRule ^shop/$ /shop/shop.php
+RewriteRule ^es/tienda/$ /es/tienda/shop.php
+RewriteRule ^shop/([0-9]+)/$ /shop/shop-item.php?id=$1
+RewriteRule ^es/tienda/([0-9]+)/$ /es/tienda/shop-item.php?id=$1
 
-RewriteRule ^collections/$ /mermanegra/collections/collections.php
-RewriteRule ^es/colecciones/$ /mermanegra/es/colecciones/collections.php
-RewriteRule ^collections/(.*)/$ /mermanegra/collections/collection.php?id=$1
-RewriteRule ^es/colecciones/(.*)/$ /mermanegra/es/colecciones/collection.php?id=$1
+RewriteRule ^collections/$ /collections/collections.php
+RewriteRule ^es/colecciones/$ /es/colecciones/collections.php
+RewriteRule ^collections/(.*)/$ /collections/collection.php?id=$1
+RewriteRule ^es/colecciones/(.*)/$ /es/colecciones/collection.php?id=$1
 
-RewriteRule ^collections.php$ /mermanegra/collections/ [R=301]
-RewriteRule ^shop.php$ /mermanegra/shop/ [R=301]
-RewriteRule ^404.php$ /mermanegra/404/ [R=301]
-RewriteRule ^es/404/index.php$ /mermanegra/es/404/ [R=301]
+RewriteRule ^collections.php$ /collections/ [R=301]
+RewriteRule ^shop.php$ /shop/ [R=301]
+RewriteRule ^404.php$ /404/ [R=301]
+RewriteRule ^es/404/index.php$ /es/404/ [R=301]
 RewriteRule ^(shop/[0-9]+)$ /$1/ [R=301]
 
 RewriteCond %{QUERY_STRING} ^id=([0-9]+)$
-RewriteRule ^/shop-item.php$ /mermanegra/shop/%1/? [R=301]
+RewriteRule ^/shop-item.php$ /shop/%1/? [R=301]
 
 ErrorDocument 404 /404.php
 
