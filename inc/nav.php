@@ -5,7 +5,7 @@
       <div class="app-bar-container">
          <?php include(ROOT_PATH . 'inc/menuicon2.php'); ?>
          <h1 class="logo">Mermanegra</h1>
-         <?php if ($pagetitle == 'Merma Negra'): ?>
+         <?php if ($pagetitle == 'Mermanegra'): ?>
           <div class="langmob">
             <a href="<?php echo BASE_URL?>es/">Es</a> | <b>En</b> 
           </div>

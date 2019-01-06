@@ -16,7 +16,7 @@
 
     <nav class="navdrawer-container">
       <a href="<?php echo BASE_URL;?>es/"> 
-      <img class="logoimgmov" src="<?php echo BASE_URL;?>images/logo.svg">
+      <img class="logoimgmov" src="<?php echo BASE_URL;?>images/isotipo.png">
       </a>
       <ul>
         <li><a class="<?php if ($pagetitle == 'Acerca de') {echo "active";} ?>" href="<?php echo BASE_URL;?>es/acercade/">Acerca de</a></li>

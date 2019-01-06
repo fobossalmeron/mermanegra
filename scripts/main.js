@@ -125,7 +125,7 @@ function initMap() {
 
 function changeColor(){
 var selectedvalue = $('#colorid').val();
-$('#colorid').removeClass("colorbeige colorgrey colorwhite colorgreen colormarbledgrey colorpearlgrey coloroxfordgrey colordenimblue colornavyblue colorbrown");
+$('#colorid').removeClass("colorbeige colorgrey colorwhite colorgreen colormarbledgrey colorpearlgrey coloroxfordgrey colordenimblue colornavyblue colorbrown colorlila");
 $(".selected").removeClass("selected");
 switch (selectedvalue) {
   case "Black":
@@ -171,6 +171,10 @@ switch (selectedvalue) {
   case "Army Green":
       $('#colorid').toggleClass("colorgreen");
       $('.colorgreen').toggleClass("selected");
+      break;
+  case "Lila":
+      $('#colorid').toggleClass("colorlila");
+      $('.colorlila').toggleClass("selected");
       break;
     }
 };

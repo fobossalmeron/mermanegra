@@ -83,18 +83,19 @@ $( document ).ready(function() {
           <?php if ($product["sizeL"] == true): ?> <button class="sizebutton sizethree" onclick="selectItem('sizeid', 3);changeSize();">3</button> <?php endif;?>
 
           <p class="selectiontitle">Color</p>
-            <?php if ($product["color1"] == true): ?> <button class="colorbutton colorblack" onclick="selectItem('colorid', 'Black');">Negro</button> <?php endif;?>
-            <?php if ($product["color2"] == true): ?> <button class="colorbutton colorbeige" onclick="selectItem('colorid', 'Beige');">Beige</button> <?php endif;?>
-            <?php if ($product["color3"] == true): ?> <button class="colorbutton colorgrey" onclick="selectItem('colorid', 'Grey');">Gris</button> <?php endif;?>
-            <?php if ($product["color4"] == true): ?> <button class="colorbutton colormarbledgrey" onclick="selectItem('colorid', 'Marbled Grey');">Gris Jaspeado</button> <?php endif;?>
-            <?php if ($product["color5"] == true): ?> <button class="colorbutton colorwhite" onclick="selectItem('colorid', 'White');">Blanco</button> <?php endif;?>
-            <?php if ($product["color6"] == true): ?> <button class="colorbutton colorgreen" onclick="selectItem('colorid', 'Army Green');">Verde Militar</button> <?php endif;?>
-            <?php if ($product["color7"] == true): ?> <button class="colorbutton colordenimblue" onclick="selectItem('colorid', 'Denim Darkwash');">Denim Darkwash</button> <?php endif;?>
-            <?php if ($product["color8"] == true): ?> <button class="colorbutton colornavyblue" onclick="selectItem('colorid', 'Navy Blue');">Azul Marino</button> <?php endif;?>
-            <?php if ($product["color9"] == true): ?> <button class="colorbutton coloroxfordgrey" onclick="selectItem('colorid', 'Oxford Grey');">Gris Oxford</button> <?php endif;?>
-            <?php if ($product["color10"] == true): ?> <button class="colorbutton colorpearlgrey" onclick="selectItem('colorid', 'Pearl Grey');">Gris Perla</button> <?php endif;?>
-						<?php if ($product["color11"] == true): ?> <button class="colorbutton colorbrown" onclick="selectItem('colorid', 'Brown');">Café</button> <?php endif;?>
-						<?php if (isset($product["color12"]) && $product["color12"] == true): ?> <button class="colorbutton colorlila" onclick="selectItem('colorid', 'Lila');">Lila</button> <?php endif;?>
+
+					<?php if (isset($product["color1"]) && $product["color1"] == true): ?> <button class="colorbutton colorblack" onclick="selectItem('colorid', 'Black');">Negro</button> <?php endif;?>
+          <?php if (isset($product["color2"]) && $product["color2"] == true): ?> <button class="colorbutton colorbeige" onclick="selectItem('colorid', 'Beige');">Beige</button> <?php endif;?>
+          <?php if (isset($product["color3"]) && $product["color3"] == true): ?> <button class="colorbutton colorgrey" onclick="selectItem('colorid', 'Grey');">Gris</button> <?php endif;?>
+          <?php if (isset($product["color4"]) && $product["color4"] == true): ?> <button class="colorbutton colormarbledgrey" onclick="selectItem('colorid', 'Marbled Grey');">Gris Jaspeado</button> <?php endif;?>
+          <?php if (isset($product["color5"]) && $product["color5"] == true): ?> <button class="colorbutton colorwhite" onclick="selectItem('colorid', 'White');">Blanco</button> <?php endif;?>
+          <?php if (isset($product["color6"]) && $product["color6"] == true): ?> <button class="colorbutton colorgreen" onclick="selectItem('colorid', 'Army Green');">Verde Militar</button> <?php endif;?>
+          <?php if (isset($product["color7"]) && $product["color7"] == true): ?> <button class="colorbutton colordenimblue" onclick="selectItem('colorid', 'Denim Darkwash');">Denim Darkwash</button> <?php endif;?>
+          <?php if (isset($product["color8"]) && $product["color8"] == true): ?> <button class="colorbutton colornavyblue" onclick="selectItem('colorid', 'Navy Blue');">Azul Marino</button> <?php endif;?>
+          <?php if (isset($product["color9"]) && $product["color9"] == true): ?> <button class="colorbutton coloroxfordgrey" onclick="selectItem('colorid', 'Oxford Grey');">Oxford Grey</button> <?php endif;?>
+          <?php if (isset($product["color10"]) && $product["color10"] == true): ?> <button class="colorbutton colorpearlgrey" onclick="selectItem('colorid', 'Pearl Grey');">Pearl Grey</button> <?php endif;?>
+          <?php if (isset($product["color11"]) && $product["color11"] == true): ?> <button class="colorbutton colorbrown" onclick="selectItem('colorid', 'Brown');">Café</button> <?php endif;?>
+          <?php if (isset($product["color12"]) && $product["color12"] == true): ?> <button class="colorbutton colorlila" onclick="selectItem('colorid', 'Lila');">Lila</button> <?php endif;?>
 
 				    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
