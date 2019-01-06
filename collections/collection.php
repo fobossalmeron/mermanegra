@@ -6,7 +6,7 @@
 if (isset($_GET["id"])) {
 			$collection_id = $_GET["id"];
 				for ($sku = 0; $sku < count($collections) + 1; $sku++) {
-				    if ($collections[$sku]["name"] == $collection_id){
+				    if (isset($collections[$sku]["name"]) && $collections[$sku]["name"] == $collection_id){
 				    	$collection = $collection_id;
 				    }
 			}

@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "short_name": "Merma Negra",
-  "name": "Merma Negra",
+  "short_name": "Mermanegra",
+  "name": "Mermanegra",
   "launch_path": "/",
-  "description": "E-Commerce site for Merma Negra",
+  "description": "E-Commerce site for Mermanegra",
   "icons": {
     "128": "/images/touch/icon-128x128.png"
   },
@@ -19,8 +19,8 @@
   },
   "locales": {
     "en": {
-      "name": "Merma Negra",
-      "description": "E-Commerce site for Merma Negra."
+      "name": "Mermanegra",
+      "description": "E-Commerce site for Mermanegra."
     }
   }
   "display":"standalone"

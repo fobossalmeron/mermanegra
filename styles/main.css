@@ -188,6 +188,11 @@ select.colorblack, button.colorblack{
   color: white;
 }
 
+select.colorlila, button.colorlila{
+  background-color: #c8a2c8;
+  color:white;
+}
+
 .sizebutton{
   padding: 2% 4%;
   border: none;
@@ -328,8 +333,8 @@ position: relative;
 
 .logoimgmov{
 display: block;
-width: 140px;
-margin-left: 10px;
+width:70px;
+margin: 10px 30px;
 position: relative;
 }
 
@@ -394,7 +399,8 @@ body.open {
 }
 
 .homebar{
-  background-color: transparent!important;
+  /* background-color: transparent!important; */
+  background-color: rgba(255,255,255,0.3) !important;
 }
 
 .app-bar-container {
@@ -583,7 +589,7 @@ button.menu img {
 
 .lang{
   display: block;
-  background-color: #282828;
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 16px;
   position: absolute;
   left: 50%;
@@ -598,6 +604,7 @@ button.menu img {
 
 .lang p{
 display:none;
+color:#999;
 }
 
 .langmob {
@@ -1076,7 +1083,7 @@ display:none;
     display: block;
     height: auto;
     padding: 0 16px;
-    box-sizing: border-box
+    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     background-color: white;
@@ -1305,7 +1312,7 @@ h1{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url('../../images/homeslider/home1.jpg');
+  background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1318,145 +1325,145 @@ h1{
 
 @keyframes slider {
   0% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
   15% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
   20% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos2.jpg');
   }
   35% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos2.jpg');
   }
   40% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos3.jpg');
   }
   55% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos3.jpg');
   }
   60% {
-   background-image: url('../../images/homeslider/home4.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos4.jpg');
   }
   75% {
-   background-image: url('../../images/homeslider/home4.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos4.jpg');
   }
   80% {
-   background-image: url('../../images/homeslider/home5.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos5.jpg');
   }
   95% {
-   background-image: url('../../images/homeslider/home5.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos5.jpg');
   }
   100% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
 }
 
 @-webkit-keyframes sliderw {
   0% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
   15% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
   20% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos2.jpg');
   }
   35% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos2.jpg');
   }
   40% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos3.jpg');
   }
   55% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos3.jpg');
   }
   60% {
-   background-image: url('../../images/homeslider/home4.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos4.jpg');
   }
   75% {
-   background-image: url('../../images/homeslider/home4.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos4.jpg');
   }
   80% {
-   background-image: url('../../images/homeslider/home5.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos5.jpg');
   }
   95% {
-   background-image: url('../../images/homeslider/home5.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos5.jpg');
   }
   100% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
 }
 
 @-moz-keyframes sliderm {
   0% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
   15% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
   20% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos2.jpg');
   }
   35% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos2.jpg');
   }
   40% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos3.jpg');
   }
   55% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos3.jpg');
   }
   60% {
-   background-image: url('../../images/homeslider/home4.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos4.jpg');
   }
   75% {
-   background-image: url('../../images/homeslider/home4.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos4.jpg');
   }
   80% {
-   background-image: url('../../images/homeslider/home5.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos5.jpg');
   }
   95% {
-   background-image: url('../../images/homeslider/home5.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos5.jpg');
   }
   100% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
 }
 
 @-o-keyframes slidero {
   0% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
   15% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
   20% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos2.jpg');
   }
   35% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos2.jpg');
   }
   40% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos3.jpg');
   }
   55% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos3.jpg');
   }
   60% {
-   background-image: url('../../images/homeslider/home4.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos4.jpg');
   }
   75% {
-   background-image: url('../../images/homeslider/home4.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos4.jpg');
   }
   80% {
-   background-image: url('../../images/homeslider/home5.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos5.jpg');
   }
   95% {
-   background-image: url('../../images/homeslider/home5.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos5.jpg');
   }
   100% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/somos/somos1.jpg');
   }
 }
 /*
@@ -1483,25 +1490,25 @@ h1{
 /*
 @keyframes slider {
   0% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/home1.jpg');
   }
   15% {
-   background-image: url('../../images/homeslider/home1.jpg');
+   background-image: url('../../mermanegra/images/homeslider/home1.jpg');
   }
   25% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/home2.jpg');
   }
   40% {
-   background-image: url('../../images/homeslider/home2.jpg');
+   background-image: url('../../mermanegra/images/homeslider/home2.jpg');
   }
   50% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/home3.jpg');
   }
   65% {
-   background-image: url('../../images/homeslider/home3.jpg');
+   background-image: url('../../mermanegra/images/homeslider/home3.jpg');
   }
   75% {
-   background-image: url('../../images/homeslider/home4.jpg');
+   background-image: url('../../mermanegra/images/homeslider/home4.jpg');
   }
   90% {
    background-image: url('../../images/homeslider/home4.jpg');
