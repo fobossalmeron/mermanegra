@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Merma Negra | <?php if ($pagetitle == 'Merma Negra') { echo 'Línea de ropa emergente que proyecta los diseños de Gustavo Castellanos &amp; Jessica Escobar';} else { echo $pagetitle; }; ?>">
-    <meta name="author" content="Merma Negra">
+    <meta name="description" content="Mermanegra | <?php if ($pagetitle == 'Mermanegra') { echo 'Línea de ropa emergente que proyecta los diseños de Gustavo Castellanos &amp; Jessica Escobar';} else { echo $pagetitle; }; ?>">
+    <meta name="author" content="Mermanegra">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
     <title><?php echo $pagetitle?></title>
     <meta property="og:url"                content="http://mermanegra.com/">
 	<meta property="og:type"               content="website">
-	<meta property="og:title"              content="Merma Negra">
-	<meta property="og:description"        content="Merma Negra | Línea de ropa emergente que proyecta los diseños de Gustavo Castellanos &amp; Jessica Escobar">
+	<meta property="og:title"              content="Mermanegra">
+	<meta property="og:description"        content="Mermanegra | Línea de ropa emergente que proyecta los diseños de Gustavo Castellanos &amp; Jessica Escobar">
 	<meta property="og:image"              content="http://mermanegra.com/images/og_image.png"/>
 
 	<!-- favicon info -->
@@ -23,7 +23,7 @@
 	<link rel="apple-touch-icon" sizes="76x76" href="<?php echo BASE_URL;?>favicons/apple-touch-icon-76x76.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo BASE_URL;?>favicons/apple-touch-icon-152x152.png">
 
-	<meta name="apple-mobile-web-app-title" content="Merma Negra">
+	<meta name="apple-mobile-web-app-title" content="Mermanegra">
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -37,7 +37,7 @@
 	<link rel="icon" type="image/png" href="<?php echo BASE_URL;?>favicons/favicon-32x32.png" sizes="32x32">
 	<meta name="msapplication-TileColor" content="#000000">
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
-	<meta name="application-name" content="Merma Negra">
+	<meta name="application-name" content="Mermanegra">
 
     <!-- build:css styles/components/main.min.css -->
     <link rel="stylesheet" href="<?php echo BASE_URL;?>styles/h5bp.css">
