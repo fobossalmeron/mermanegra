@@ -93,7 +93,8 @@ $( document ).ready(function() {
             <?php if ($product["color8"] == true): ?> <button class="colorbutton colornavyblue" onclick="selectItem('colorid', 'Navy Blue');">Azul Marino</button> <?php endif;?>
             <?php if ($product["color9"] == true): ?> <button class="colorbutton coloroxfordgrey" onclick="selectItem('colorid', 'Oxford Grey');">Gris Oxford</button> <?php endif;?>
             <?php if ($product["color10"] == true): ?> <button class="colorbutton colorpearlgrey" onclick="selectItem('colorid', 'Pearl Grey');">Gris Perla</button> <?php endif;?>
-            <?php if ($product["color11"] == true): ?> <button class="colorbutton colorbrown" onclick="selectItem('colorid', 'Brown');">Café</button> <?php endif;?>
+						<?php if ($product["color11"] == true): ?> <button class="colorbutton colorbrown" onclick="selectItem('colorid', 'Brown');">Café</button> <?php endif;?>
+						<?php if (isset($product["color12"]) && $product["color12"] == true): ?> <button class="colorbutton colorlila" onclick="selectItem('colorid', 'Lila');">Lila</button> <?php endif;?>
 
 				    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
@@ -118,7 +119,8 @@ $( document ).ready(function() {
               <?php if ($product["color8"] == true): ?> <option value="Navy Blue">Navy Blue</option> <?php endif;?>
               <?php if ($product["color9"] == true): ?> <option value="Oxford Grey">Oxford Grey</option> <?php endif;?>
               <?php if ($product["color10"] == true): ?> <option value="Pearl Grey">Pearl Grey</option> <?php endif;?>
-              <?php if ($product["color11"] == true): ?> <option value="Brown">Brown</option> <?php endif;?>
+							<?php if ($product["color11"] == true): ?> <option value="Brown">Brown</option> <?php endif;?>
+							<?php if ($product["color12"] == true): ?> <option value="Lila">Lila</option> <?php endif;?>
             </select>
 
 						<input type="hidden" name="item_name" value="<?php echo $product["name"];?>">
@@ -129,18 +131,30 @@ $( document ).ready(function() {
 				<?php } else { echo '<p class="outofstock_es">Producto agotado</p>';}?>
 
 				    <ul class="g--medium--full floated">
+
+						<?php if (isset($product["img"])) { ?>
 			    	<li class="g-medium--half g-wide--1 option1 minify">
 			    	<img src="<?php echo BASE_URL . $product["img"]; ?>" alt"<?php echo $product["name_es"]; ?>">
-			    	</li>
+						</li>
+						<?php } ?>
+
+						<?php if (isset($product["img2"])) { ?>
 			    	<li class="g-medium--half g-wide--1 g-medium--last option2 minify">
 			    	<img src="<?php echo BASE_URL . $product["img2"]; ?>" alt"<?php echo $product["name_es"]; ?>">
-			    	</li>
+						</li>
+						<?php } ?>
+
+						<?php if (isset($product["img3"])) { ?>
 			    	<li class="g-medium--half g-wide--1 option3 minify">
 			    	<img src="<?php echo BASE_URL . $product["img3"]; ?>" alt"<?php echo $product["name_es"]; ?>">
-			    	</li>
+						</li>
+						<?php } ?>
+
+						<?php if (isset($product["img4"])) { ?>
 			    	<li class="g-medium--half g-wide--1 g-medium--last g-wide--last option4 minify">
 			    	<img src="<?php echo BASE_URL . $product["img4"]; ?>" alt"<?php echo $product["name_es"]; ?>">
-			    	</li>
+						</li>
+						<?php } ?>
 		</ul>
 
 			</div>
