@@ -1076,7 +1076,7 @@ $products[433] = array(
 	'description_es' => 'Gabardina de algodón 100%.<br>Acesorio tipo bolso con función de riñonera o piernera.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2200,
 	'img' =>  'images/shop/somos/IMG_3148.jpg',
-	'img2' =>  'images/shop/somos/IMG_2865 2.jpg',
+	'img2' =>  'images/shop/somos/IMG_2865-2.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
