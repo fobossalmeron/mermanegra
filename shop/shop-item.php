@@ -130,20 +130,27 @@ $( document ).ready(function() {
 
 				<?php } else { echo '<p class="outofstock">Currently out of stock</p>';}?>
 
-
-				    <ul class="g--medium--full floated">
-			    	<li class="g-medium--half g-wide--1 option1 minify">
-			    	<img src="<?php echo BASE_URL . $product["img"]; ?>" alt"<?php echo $product["name"]; ?>">
-			    	</li>
-			    	<li class="g-medium--half g-wide--1 g-medium--last option2 minify">
-			    	<img src="<?php echo BASE_URL . $product["img2"]; ?>" alt"<?php echo $product["name"]; ?>">
-			    	</li>
-			    	<li class="g-medium--half g-wide--1 option3 minify">
-			    	<img src="<?php echo BASE_URL . $product["img3"]; ?>" alt"<?php echo $product["name"]; ?>">
-			    	</li>
-			    	<li class="g-medium--half g-wide--1 g-medium--last g-wide--last option4 minify">
-			    	<img src="<?php echo BASE_URL . $product["img4"]; ?>" alt"<?php echo $product["name"]; ?>">
-			    	</li>
+					<ul class="g--medium--full floated">
+					<?php if (isset($product["img"])) { ?>
+						<li class="g-medium--half g-wide--1 option1 minify">
+						<img src="<?php echo BASE_URL . $product["img"]; ?>" alt"<?php echo $product["name"]; ?>">
+						</li>
+					<?php } ?>
+					<?php if (isset($product["img2"])) { ?>
+						<li class="g-medium--half g-wide--1 g-medium--last option2 minify">
+						<img src="<?php echo BASE_URL . $product["img2"]; ?>" alt"<?php echo $product["name"]; ?>">
+						</li>
+					<?php } ?>
+					<?php if (isset($product["img3"])) { ?>
+						<li class="g-medium--half g-wide--1 option3 minify">
+						<img src="<?php echo BASE_URL . $product["img3"]; ?>" alt"<?php echo $product["name"]; ?>">
+						</li>
+					<?php } ?>
+					<?php if (isset($product["img4"])) { ?>
+						<li class="g-medium--half g-wide--1 g-medium--last g-wide--last option4 minify">
+						<img src="<?php echo BASE_URL . $product["img4"]; ?>" alt"<?php echo $product["name"]; ?>">
+						</li>
+					<?php } ?>
 		</ul>
 
 			</div>
