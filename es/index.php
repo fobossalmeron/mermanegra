@@ -1,6 +1,6 @@
 <?php 
 	require_once("../inc/config.php"); 
-	$pagetitle = 'Merma Negra';
+	$pagetitle = 'Mermanegra';
 ?>
 
 <?php include(ROOT_PATH . 'inc/es/header.php'); ?>
