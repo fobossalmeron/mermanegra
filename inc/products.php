@@ -679,7 +679,7 @@ $products[413] = array(
 
 // new collection SOMOSOROSOMOS - By EndelSoft 2018
 $products[414] = array(
-	'name' => 'Campera VOL-115',
+	'name' => 'Jacket VOL-115',
 	'name_es' => 'Campera VOL-115',
 	'description' => '100% cotton canvas <br> Unisex canvas jacket. 4 frnt pockets / 1 bk pocket. Wide fit.<br><br>',
 	'description_es' => 'Loneta de algodón 100% <br> Chamarra de lona unisex con cuatro bolsillos delanteros y uno en la espalda. Calce amplio y cuadrado.<br><br> ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
@@ -1069,7 +1069,7 @@ $products[432] = array(
 );
 
 $products[433] = array(
-	'name' => 'Piernera VOL-120',
+	'name' => 'Pant leg VOL-120',
 	'name_es' => 'Piernera VOL-120',
 	'description' => '100% cotton trench coat.<br>Bag type accessory with fanny pack or leg.<br><br>',
 	'description_es' => 'Gabardina de algodón 100%.<br>Acesorio tipo bolso con función de riñonera o piernera.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
