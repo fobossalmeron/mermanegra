@@ -190,6 +190,7 @@ select.colorblack, button.colorblack{
 
 select.colorlila, button.colorlila{
   background-color: #c8a2c8;
+  background-image: url(/images/lila.jpg);
   color:white;
 }
 
