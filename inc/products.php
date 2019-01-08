@@ -49,9 +49,9 @@ $collections[5] = array(
 	'name_es' => 'SOMOSOROSOMOS',
 	'description' => 'With the work of expert designers, artists and creators we present SOMOSOROSOMOS. A collection inspired by different visions in Mexico, backed by a local and global analysis.',
 	'description_es' => 'Trabajando con un equipo selecto de artistas, diseñadores y creadores presentamos SOMOSOROSOMOS. Una colección inspirada en un análisis local y global, utilizando distintas visiones de México.',
-	'img' => 'images/shop/somos/IMG_2795.jpg',
-	'img2' => 'images/shop/somos/IMG_2823.jpg',
-	'catalog' => 'collections/Somos.pdf',
+	'img' => 'images/shop/Somos/501/501-1.jpg',
+	'img2' => 'images/shop/Somos/502/502-1.jpg',
+	'catalog' => 'collections/Mermanegra_Somos.pdf',
 );
 
 $products = array();
@@ -678,20 +678,16 @@ $products[413] = array(
 );
 
 // new collection SOMOSOROSOMOS - By EndelSoft 2018
-$products[414] = array(
+$products[515] = array(
 	'name' => 'Jacket VOL-115',
 	'name_es' => 'Campera VOL-115',
 	'description' => '100% cotton canvas <br> Unisex canvas jacket. 4 frnt pockets / 1 bk pocket. Wide fit.<br><br>',
 	'description_es' => 'Loneta de algodón 100% <br> Chamarra de lona unisex con cuatro bolsillos delanteros y uno en la espalda. Calce amplio y cuadrado.<br><br> ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 3600,
-	'img' =>  'images/shop/somos/IMG_2873.jpg',
-	'img2' => 'images/shop/somos/IMG_3166.jpg',
-	'img3' => 'images/shop/somos/IMG_3028.jpg',
-	'img4' => 'images/shop/somos/IMG_3030.jpg',
-	'img5' => 'images/shop/somos/IMG_3097.jpg',
-	'img6' => 'images/shop/somos/IMG_3111.jpg',
-	'img7' => 'images/shop/somos/IMG_3166.jpg',
-	'img8' => 'images/shop/somos/IMG_3023.jpg',
+	'img' =>  'images/shop/Somos/515/515-1.jpg',
+	'img2' =>  'images/shop/Somos/515/515-2.jpg',
+	'img3' =>  'images/shop/Somos/515/515-3.jpg',
+	'img4' =>  'images/shop/Somos/515/515-4.jpg',
 	'sizeS' => true,
 	'sizeM' =>true,
 	'sizeL' => true,
@@ -703,16 +699,16 @@ $products[414] = array(
 	'paypal' => "KFHT7QWPGVY2W"
 );
 
-$products[415] = array(
+$products[511] = array(
 	'name' => 'Shirt VOL-111',
 	'name_es' => 'Camisa VOL-111',
 	'description' => '100% cotton trench coat<br>Unisex trench coat with four front pockets and one on the back. Wide and square fit.<br><br>',
 	'description_es' => 'Gabardina de algodón 100%<br>Camisa de gabardina unisex de cuatro bolsillos delanteros y 1 en la espalda. Calce amplio y cuadrado.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2850,
-	'img' =>  'images/shop/somos/IMG_3111.jpg',
-	'img2' => 'images/shop/somos/IMG_3023.jpg',
-	'img3' => 'images/shop/somos/IMG_3028.jpg',
-	'img4' => 'images/shop/somos/IMG_3092.jpg',
+	'img' =>  'images/shop/Somos/511/511-1.jpg',
+	'img2' => 'images/shop/Somos/505/505-2.jpg',
+	'img3' => 'images/shop/Somos/505/505-3.jpg',
+	'img4' => 'images/shop/Somos/505/505-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -724,16 +720,16 @@ $products[415] = array(
 	'paypal' => "ATYYAKWFVV3GY"
 );
 
-$products[416] = array(
+$products[505] = array(
 	'name' => 'Sweatshirt VOL-105',
 	'name_es' => 'Sudadera VOL-105',
 	'description' => '100% cotton 100% Polyester cuffs.<br>Unisex oversize sweatshirt, with printed details in serigraphy.<br><br>',
 	'description_es' => 'Algodón 100%. Puños Polyester 100%.<br>Sudadera oversize unisex, con detalles estampados en serigrafia.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2900,
-	'img' =>  'images/shop/somos/IMG_3154.jpg',
-	'img2' => 'images/shop/somos/IMG_2806.jpg',
-	'img3' => 'images/shop/somos/IMG_2823.jpg',
-	'img4' => 'images/shop/somos/IMG_2968.jpg',
+	'img' =>  'images/shop/Somos/505/505-1.jpg',
+	'img2' => 'images/shop/Somos/505/505-2.jpg',
+	'img3' => 'images/shop/Somos/505/505-3.jpg',
+	'img4' => 'images/shop/Somos/505/505-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -745,14 +741,14 @@ $products[416] = array(
 	'paypal' => "FQKZWSP467CKG"
 );
 
-$products[417] = array(
+$products[510] = array(
 	'name' => 'Sweatshirt VOL-110',
 	'name_es' => 'Sudadera VOL-110',
 	'description' => '95% cotton Elastane 5%.<br>Unisex sweatshirt with embroidered details. Of fit to the body.<br><br>',
 	'description_es' => 'Algodón 95%. Elastano 5%.<br>Sudadera unisex con detalles bordados.  De calce al cuerpo.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2300,
-	'img' =>  'images/shop/somos/IMG_2950.jpg',
-	'img2' => 'images/shop/somos/IMG_3014.jpg',
+	'img' =>  'images/shop/Somos/510/510-1.jpg',
+	'img2' => 'images/shop/Somos/510/510-1.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -763,16 +759,16 @@ $products[417] = array(
 	'paypal' => "FENNHT6MGT84J"
 );
 
-$products[418] = array(
+$products[506] = array(
 	'name' => 'Top VOL-106',
 	'name_es' => 'Top VOL-106',
 	'description' => 'Cotton 90% Lycra 10%.<br>Women\'s sweatshirt short with spring at the waist and cuffs.<br><br>',
 	'description_es' => 'Algodón 90% Licra 10%.<br>Sudadera de mujer corta con resorte en la cintura y puños.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 1400,
-	'img' =>  'images/shop/somos/IMG_3004.jpg',
-	'img2' => 'images/shop/somos/IMG_3057.jpg',
-	'img3' => 'images/shop/somos/IMG_3023.jpg',
-	'img4' => 'images/shop/somos/IMG_2937.jpg',
+	'img' =>  'images/shop/Somos/506/506-1.jpg',
+	'img2' => 'images/shop/Somos/506/506-2.jpg',
+	'img3' => 'images/shop/Somos/506/506-3.jpg',
+	'img4' => 'images/shop/Somos/506/506-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -783,16 +779,16 @@ $products[418] = array(
 	'paypal' => "DWF8ZHDBA3GLC"
 );
 
-$products[419] = array(
+$products[507] = array(
 	'name' => 'Top VOL-107',
 	'name_es' => 'Top VOL-107',
 	'description' => 'Cotton 90% Lycra 10%.<br>Women\'s short t-shirt with spring at the waist and cuffs.<br><br>',
 	'description_es' => 'Algodón 90% Licra 10%.<br>Polera de mujer corta con resorte a la cintura y puños.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 1600,
-	'img' =>  'images/shop/somos/IMG_2827.jpg',
-	'img2' => 'images/shop/somos/IMG_2832.jpg',
-	'img3' => 'images/shop/somos/IMG_2870.jpg',
-	'img4' => 'images/shop/somos/IMG_2884.jpg',
+	'img' =>  'images/shop/Somos/507/507-1.jpg',
+	'img2' => 'images/shop/Somos/507/507-2.jpg',
+	'img3' => 'images/shop/Somos/507/507-3.jpg',
+	'img4' => 'images/shop/Somos/507/507-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -803,16 +799,16 @@ $products[419] = array(
 	'paypal' => "ZL9GRL7GF4KAW"
 );
 
-$products[420] = array(
+$products[513] = array(
 	'name' => 'Polo VOL-113',
 	'name_es' => 'Polo VOL-113',
 	'description' => '100% cotton.<br>Oversized polo shirt with collar and cuffs combined. Unisex<br><br>',
 	'description_es' => 'Algodón 100%.<br>Polo oversize de pique con cuello y puños combiandos. Unisex.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 1480,
-	'img' =>  'images/shop/somos/IMG_2842.jpg',
-	'img2' => 'images/shop/somos/IMG_2847.jpg',
-	'img3' => 'images/shop/somos/IMG_2899.jpg',
-	'img4' => 'images/shop/somos/IMG_3127.jpg',
+	'img' =>  'images/shop/Somos/513/513-1.jpg',
+	'img2' => 'images/shop/Somos/513/513-2.jpg',
+	'img3' => 'images/shop/Somos/513/513-3.jpg',
+	'img4' => 'images/shop/Somos/513/513-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => false,
@@ -825,15 +821,15 @@ $products[420] = array(
 	'paypal' => "XH25JLUZA5SBE"
 );
 
-$products[421] = array(
+$products[514] = array(
 	'name' => 'Polo dress VOL-114',
 	'name_es' => 'Vestido Polo VOL-114',
 	'description' => '100% cotton.<br>Oversized polo shirt dress with collar and cuffs combined. Unisex<br><br>',
 	'description_es' => 'Algodón 100%.<br>Vestido Polo oversize de pique con cuello y puños combinados. Unisex.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2350,
-	'img' =>  'images/shop/somos/IMG_3120.jpg',
-	'img2' => 'images/shop/somos/IMG_3142.jpg',
-	'img3' => 'images/shop/somos/IMG_3148.jpg',
+	'img' =>  'images/shop/Somos/514/514-1.jpg',
+	'img2' => 'images/shop/Somos/514/514-2.jpg',
+	'img3' => 'images/shop/Somos/514/514-3.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => false,
@@ -844,16 +840,16 @@ $products[421] = array(
 	'paypal' => "W654UVUSHTCQC"
 );
 
-$products[422] = array(
+$products[508] = array(
 	'name' => 'Lycra shirt VOL-108',
 	'name_es' => 'Camiseta lycra VOL-108',
 	'description' => 'Cotton 90% Lycra 10%.<br>Unisex short sleeve sweatshirt. With embroidered details. Square cut.<br><br>',
 	'description_es' => 'Algodón 90% Licra 10%.<br>Sudadera manga corta unisex. Con detalles bordados. Corte cuadrado.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 1900,
-	'img' =>  'images/shop/somos/IMG_3049.jpg',
-	'img2' => 'images/shop/somos/IMG_2995.jpg',
-	'img3' => 'images/shop/somos/IMG_2968.jpg',
-	'img4' => 'images/shop/somos/IMG_2937.jpg',
+	'img' =>  'images/shop/Somos/508/508-1.jpg',
+	'img2' => 'images/shop/Somos/508/508-2.jpg',
+	'img3' => 'images/shop/Somos/508/508-3.jpg',
+	'img4' => 'images/shop/Somos/508/508-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -865,16 +861,16 @@ $products[422] = array(
 	'paypal' => "4JX99GDMM5SY8"
 );
 
-$products[423] = array(
+$products[503] = array(
 	'name' => 'Oversize VOL-103',
 	'name_es' => 'Oversize VOL-103',
 	'description' => '100% cotton.<br>Unisex undershirt with short sleeves. With embroidered details. Super wide cut.<br><br>',
 	'description_es' => 'Algodón 100%.<br>Camiseta  unisex de manga corta oversize. Con detalles bordados. Corte super amplio.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 1590,
-	'img' =>  'images/shop/somos/IMG_2816.jpg',
-	'img2' => 'images/shop/somos/IMG_2810.jpg',
-	'img3' => 'images/shop/somos/IMG_2795.jpg',
-	'img4' => 'images/shop/somos/IMG_2821.jpg',
+	'img' =>  'images/shop/Somos/503/503-1.jpg',
+	'img2' => 'images/shop/Somos/503/503-2.jpg',
+	'img3' => 'images/shop/Somos/503/503-3.jpg',
+	'img4' => 'images/shop/Somos/503/503-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -886,16 +882,16 @@ $products[423] = array(
 	'paypal' => "2UUVG7YTRAPBL"
 );
 
-$products[424] = array(
+$products[501] = array(
 	'name' => 'Basic T-shirt VOL-101',
 	'name_es' => 'Camiseta Basica VOL-101',
 	'description' => '100% cotton.<br>Short sleeve t-shirt with a wide cut with embroidered details.<br><br>',
 	'description_es' => 'Algodón 100%.<br>Camiseta manga corta de corte amplio con detalles bordados.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 790,
-	'img' =>  'images/shop/somos/IMG_2853.jpg',
-	'img2' => 'images/shop/somos/IMG_3055.jpg',
-	'img3' => 'images/shop/somos/IMG_3048.jpg',
-	'img4' => 'images/shop/somos/IMG_3043.jpg',
+	'img' =>  'images/shop/Somos/501/501-1.jpg',
+	'img2' => 'images/shop/Somos/501/501-2.jpg',
+	'img3' => 'images/shop/Somos/501/501-3.jpg',
+	'img4' => 'images/shop/Somos/501/501-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -908,16 +904,16 @@ $products[424] = array(
 	'paypal' => "R8XKBDUY4Q28W"
 );
 
-$products[425] = array(
-	'name' => 'T-shirt VOL-109',
+$products[509] = array(
+	'name' => 'High neck VOL-109',
 	'name_es' => 'Polera VOL-109',
 	'description' => '100% cotton.<br>Wide unisex t-shirt with embroidered details.<br><br>',
 	'description_es' => 'Algodón 100%.<br>Polera unisex amplia con detalles bordados.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2150,
-	'img' =>  'images/shop/somos/IMG_2921.jpg',
-	'img2' => 'images/shop/somos/IMG_2927.jpg',
-	'img3' => 'images/shop/somos/IMG_2988.jpg',
-	'img4' => 'images/shop/somos/IMG_2995.jpg',
+	'img' =>  'images/shop/Somos/509/509-1.jpg',
+	'img2' => 'images/shop/Somos/509/509-2.jpg',
+	'img3' => 'images/shop/Somos/509/509-3.jpg',
+	'img4' => 'images/shop/Somos/509/509-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -930,17 +926,16 @@ $products[425] = array(
 	'paypal' => "46N9VQF2HE5PY"
 );
 
-$products[426] = array(
+$products[502] = array(
 	'name' => 'Basic T-shirt VOL-102',
 	'name_es' => 'Camiseta básica VOL-102',
 	'description' => '100% cotton.<br>Women\'s shirt cut to the waist. Broad cut.<br><br>',
 	'description_es' => 'Algodón 100%.<br>Camiseta de mujer corta a la cintura. De corte amplio<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 790,
-	'img' =>  'images/shop/somos/IMG_2884.jpg',
-	'img2' => 'images/shop/somos/IMG_2887.jpg',
-	'img3' => 'images/shop/somos/IMG_2896.jpg',
-	'img4' => 'images/shop/somos/IMG_2906.jpg',
-	'img5' => 'images/shop/somos/IMG_2913.jpg',
+	'img' =>  'images/shop/Somos/502/502-1.jpg',
+	'img2' => 'images/shop/Somos/502/502-2.jpg',
+	'img3' => 'images/shop/Somos/502/502-3.jpg',
+	'img4' => 'images/shop/Somos/502/502-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => false,
@@ -953,14 +948,14 @@ $products[426] = array(
 	'paypal' => "AWX7U4XYSFRBE"
 );
 
-$products[427] = array(
-	'name' => 'Dress  VOL-104',
-	'name_es' => 'Vestido  VOL-104',
+$products[504] = array(
+	'name' => 'Dress VOL-104',
+	'name_es' => 'Vestido VOL-104',
 	'description' => '100% cotton.<br>Midi dress with amplitude to the center.<br><br>',
 	'description_es' => 'Algodón 100%.<br>Vestido midi con amplitud al centro.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2250,
-	'img' =>  'images/shop/somos/IMG_3098.jpg',
-	'img2' => 'images/shop/somos/IMG_3083.jpg',
+	'img' =>  'images/shop/Somos/504/504-1.jpg',
+	'img2' => 'images/shop/Somos/504/504-2.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => false,
@@ -971,16 +966,16 @@ $products[427] = array(
 	'paypal' => "6JR8U6AQ3HZ66"
 );
 
-$products[428] = array(
+$products[516] = array(
 	'name' => 'Trousers VOL-116',
 	'name_es' => 'Pantalón VOL-116',
 	'description' => '100% cotton trench coat.<br>Trousers with straight cut and spring at the waist and cuffs.<br><br>',
 	'description_es' => 'Gabardina de algodón 100%.<br>Pantalón con corte recto y resorte en la cintura y puños.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2750,
-	'img' =>  'images/shop/somos/IMG_2870.jpg',
-	'img2' => 'images/shop/somos/IMG_2884.jpg',
-	'img3' => 'images/shop/somos/IMG_2896.jpg',
-	'img4' => 'images/shop/somos/IMG_3057.jpg',
+	'img' =>  'images/shop/Somos/516/516-1.jpg',
+	'img2' => 'images/shop/Somos/516/516-2.jpg',
+	'img3' => 'images/shop/Somos/516/516-3.jpg',
+	'img4' => 'images/shop/Somos/516/516-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -991,34 +986,36 @@ $products[428] = array(
 	'paypal' => "2HL2MCJ2E63NN"
 );
 
-$products[429] = array(
+$products[512] = array(
 	'name' => 'Trousers VOL-112',
 	'name_es' => 'Pantalón VOL-112',
 	'description' => '100% cotton trench coat.<br>Straight pants above the ankles, with spring at the waist and pocket detail on the back.<br><br>',
 	'description_es' => 'Gabardina de algodón 100%.<br>Pantalon recto por arriba de los tobillos, con resorte en la cintura y detalle de bolsillo en el trasero.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2950,
-	'img' =>  'images/shop/somos/IMG_2968.jpg',
-	'img2' => 'images/shop/somos/IMG_2806.jpg',
-	'img3' => 'images/shop/somos/IMG_2842.jpg',
-	'img4' => 'images/shop/somos/IMG_3049.jpg',
+	'img' =>  'images/shop/Somos/512/512-1.jpg',
+	'img2' => 'images/shop/Somos/512/512-2.jpg',
+	'img3' => 'images/shop/Somos/512/512-3.jpg',
+	'img4' => 'images/shop/Somos/512/512-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
 	'color1' => true,
 	'color6' => true,
+	'color11' => true,
+	'color13' => true,
 	'collection' => $collections[5]['name'],
 	'instock' => true,
 	'paypal' => "B7ZP83UKLQS4S"
 );
 
-$products[430] = array(
+$products[517] = array(
 	'name' => 'LADRON Sweater VOL-117',
 	'name_es' => 'Sueter LADRON VOL-117',
 	'description' => '100% cotton.<br>Knitting sweater in collaboration with the LADRON gallery.<br><br>',
 	'description_es' => 'Algodón 100%.<br>Suéter de tejido en colaboración con la LADRON galería.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 1700,
-	'img' =>  'images/shop/somos/IMG_2995.jpg',
-	'img2' => 'images/shop/somos/IMG_3000.jpg',
+	'img' =>  'images/shop/Somos/517/517-1.jpg',
+	'img2' => 'images/shop/Somos/517/517-2.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -1029,16 +1026,16 @@ $products[430] = array(
 	'paypal' => "GGRKQG63EZMFC"
 );
 
-$products[431] = array(
+$products[518] = array(
 	'name' => 'Vest VOL-118',
 	'name_es' => 'Chaleco VOL-118',
 	'description' => '100% cotton trench coat.<br>Military type vest with many pockets and many fits.<br><br>',
 	'description_es' => 'Gabardina de algodón 100%.<br>Chaleco tipo militar con muchos bolsillos y muchos fits.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 3900,
-	'img' =>  'images/shop/somos/IMG_2935.jpg',
-	'img2' => 'images/shop/somos/IMG_2878.jpg',
-	'img3' => 'images/shop/somos/IMG_2988.jpg',
-	'img4' => 'images/shop/somos/IMG_2960.jpg',
+	'img' =>  'images/shop/Somos/518/518-1.jpg',
+	'img2' => 'images/shop/Somos/518/518-2.jpg',
+	'img3' => 'images/shop/Somos/518/518-3.jpg',
+	'img4' => 'images/shop/Somos/518/518-4.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -1049,15 +1046,15 @@ $products[431] = array(
 	'paypal' => "3F36KXQ22MVRA"
 );
 
-$products[432] = array(
+$products[519] = array(
 	'name' => 'Waist bag VOL-119',
 	'name_es' => 'Cangurera VOL-119',
 	'description' => '100% cotton trench coat.<br>Bag type accessory with different functions and positions.<br><br>',
 	'description_es' => 'Gabardina de algodón 100%.<br>Acessorio tipo bolso con ditintas funciones y posiciones.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2800,
-	'img' =>  'images/shop/somos/IMG_2856.jpg',
-	'img2' => 'images/shop/somos/IMG_3120.jpg',
-	'img3' => 'images/shop/somos/IMG_2870.jpg',
+	'img' =>  'images/shop/Somos/519/519-1.jpg',
+	'img2' => 'images/shop/Somos/519/519-2.jpg',
+	'img3' => 'images/shop/Somos/519/519-3.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -1068,14 +1065,14 @@ $products[432] = array(
 	'paypal' => "PY6T67RAVGVJG"
 );
 
-$products[433] = array(
-	'name' => 'Pant leg VOL-120',
+$products[520] = array(
+	'name' => 'Leg bag VOL-120',
 	'name_es' => 'Piernera VOL-120',
 	'description' => '100% cotton trench coat.<br>Bag type accessory with fanny pack or leg.<br><br>',
 	'description_es' => 'Gabardina de algodón 100%.<br>Acesorio tipo bolso con función de riñonera o piernera.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 2200,
-	'img' =>  'images/shop/somos/IMG_3148.jpg',
-	'img2' =>  'images/shop/somos/IMG_2865-2.jpg',
+	'img' =>  'images/shop/Somos/520/520-1.jpg',
+	'img2' =>  'images/shop/Somos/520/520-2.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,
@@ -1086,14 +1083,14 @@ $products[433] = array(
 	'paypal' => "UXLZNRWV5796Q"
 );
 
-$products[434] = array(
+$products[521] = array(
 	'name' => 'Cap VOL-121',
 	'name_es' => 'Gorra VOL-121',
 	'description' => '100% cotton trench coat.<br>Military cap with embroidered detail.<br><br>',
 	'description_es' => 'Gabardina de algodón 100%.<br>Gorra militar con detalle borado.<br><br>ESTA PRENDA SE FABRICA SOBRE PEDIDO. Si desea un mayor grado de personalización escriba a <a href="mailto:contact@mermanegra.com">contact@mermanegra.com</a>',
 	'price' => 800,
-	'img' =>  'images/shop/somos/IMG_3056.jpg',
-	'img2' =>  'images/shop/somos/IMG_3056.jpg',
+	'img' =>  'images/shop/Somos/521/521-1.jpg',
+	'img2' =>  'images/shop/Somos/521/521-2.jpg',
 	'sizeS' => true,
 	'sizeM' => true,
 	'sizeL' => true,

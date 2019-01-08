@@ -47,9 +47,7 @@
 
     <!-- scripts -->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <!-- kchink
-    <script type="text/javascript" src="https://www.kichink.com/js/api/v1.0/kichink.min.js"></script>
-    -->
+
     <link href='http://fonts.googleapis.com/css?family=Cantarell:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     
     <?php if ($pagetitle == 'Thank you for your order!'): ?>

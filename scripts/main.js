@@ -92,7 +92,7 @@ function initMap() {
     position: retailSpot_180Shop,
     map: map_180Shop,
     title:"180 Shop",
-    //icon: image
+    //icon: image 
   });
 
   var retailSpot_Lonja = new google.maps.LatLng(19.430676, -99.196939);
@@ -175,6 +175,10 @@ switch (selectedvalue) {
   case "Lila":
       $('#colorid').toggleClass("colorlila");
       $('.colorlila').toggleClass("selected");
+      break;
+  case "Caqui":
+      $('#colorid').toggleClass("colorcaqui");
+      $('.colorcaqui').toggleClass("selected");
       break;
     }
 };
